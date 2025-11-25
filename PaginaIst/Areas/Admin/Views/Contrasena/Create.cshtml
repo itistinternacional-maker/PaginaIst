@@ -1,0 +1,114 @@
+﻿@model PaginaIst.Models.PaginasIst // ✅ Modelo utilizado para el formulario
+
+@{
+    ViewData["Title"] = "Crear Página"; // ✅ Título de la página
+}
+
+<br />
+<br />
+<h3 class="text-center">Crear un nueva página</h3>
+
+<!-- ✅ Formulario para crear un nueva página -->
+<form method="POST" asp-action="Create">
+
+    <!-- 📌 Envía los datos mediante POST al método Create del controlador -->
+
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="All" class="text-danger"></div> <!-- 🔹 Muestra errores de validación -->
+        <!-- 🔹 Campo Url -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Url"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Url" class="form-control" placeholder="Ingresa la Url" />
+                    <span asp-validation-for="Url" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Descripción -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Descripcion"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Descripcion" class="form-control" placeholder="Ingresa la Descripción" />
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Observación -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Observacion"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Observacion" class="form-control" placeholder="Ingresa la Observación" />
+                    <span asp-validation-for="Observacion" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Usuario -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Usuario"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Usuario" class="form-control" placeholder="Ingresa el Usuario" />
+                    <span asp-validation-for="Usuario" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo contraseña -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Contraseña"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Contraseña" class="form-control" placeholder="Ingresa la contraseña" />
+                    <span asp-validation-for="Contraseña" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+    </div>
+
+    <br />
+    <br />
+
+    <!-- 🔹 Botones para enviar o cancelar -->
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary form-control">Crear Equipo</button>
+        </div>
+        &nbsp;
+        <div class="col">
+            <a asp-action="Index" class="btn btn-success form-control">Volver atrás</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" /> <!-- 🔹 Agrega validaciones del lado cliente -->
+    }
+}

@@ -1,0 +1,457 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PaginaIst.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PaginaIst.z16kho3oh1.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\1-300x206.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\1-300x206.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\2-300x206.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\2-300x206.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\3-300x206.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\3-300x206.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\4-300x206.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\4-300x206.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\5-300x206.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\5-300x206.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\6-300x206.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\6-300x206.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\Arhivo_Llave-removebg-preview.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\Arhivo_Llave-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\FONDO-3_11zon-300x206.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\FONDO-3_11zon-300x206.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\IMG_20220929_173936779.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\IMG_20220929_173936779.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\ISO-45001-215x300.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\ISO-45001-215x300.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\ISO-9001-202x300.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\ISO-9001-202x300.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\Ist.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\Ist.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\Manos-manipulando-un-ordenador-portatil.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\Manos-manipulando-un-ordenador-portatil.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\RFID-Activos-768x520.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\RFID-Activos-768x520.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\Servicios de Integración.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\Servicios de Integración.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\Tratamiento de Datos Personales.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\Tratamiento de Datos Personales.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\automatizacion-industrial.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\automatizacion-industrial.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\automatizacion-petrolera-300x216.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\automatizacion-petrolera-300x216.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\consul-300x169.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\consul-300x169.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\consultor.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\consultor.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\contacto-300x127.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\contacto-300x127.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\control avanzado.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\control avanzado.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\descarga-removebg-preview.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\descarga-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\digitalizacion-de-documentos-1.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\digitalizacion-de-documentos-1.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\documentos.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\documentos.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\energia-eolica-1-300x206.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\energia-eolica-1-300x206.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\iso-14001-300x300.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\iso-14001-300x300.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\iso-14001-300x300.webp",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\iso-14001-300x300.webp"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\optimización.jpeg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\optimización.jpeg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\pdf.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\pdf.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\png-clipart-approved-approved-removebg-preview-1.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\png-clipart-approved-approved-removebg-preview-1.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\portada.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\portada.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\proyectos-tecnologicos-portada.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\proyectos-tecnologicos-portada.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\soporte-tecnico-300x139.png",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\soporte-tecnico-300x139.png"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\sostenimiento.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\sostenimiento.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Assent\\Ist\\talento.jpg",
+      "PackagePath": "staticwebassets\\Assent\\Ist\\talento.jpg"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Documentos\\Documento\\I-004 Control de Ingreso y Salida Biometrico.pdf",
+      "PackagePath": "staticwebassets\\Documentos\\Documento\\I-004 Control de Ingreso y Salida Biometrico.pdf"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Documentos\\Documento\\I-005_1 Instalación Software FortiClient VPN.pdf",
+      "PackagePath": "staticwebassets\\Documentos\\Documento\\I-005_1 Instalación Software FortiClient VPN.pdf"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Documentos\\Documento\\I-020_22 Información General de la compañia.pdf",
+      "PackagePath": "staticwebassets\\Documentos\\Documento\\I-020_22 Información General de la compañia.pdf"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Documentos\\Documento\\I-026_4 Mantenimiento Preventivo y Correctivo SW.pdf",
+      "PackagePath": "staticwebassets\\Documentos\\Documento\\I-026_4 Mantenimiento Preventivo y Correctivo SW.pdf"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Documentos\\Documento\\I-027_2 Copia de Seguridad.pdf",
+      "PackagePath": "staticwebassets\\Documentos\\Documento\\I-027_2 Copia de Seguridad.pdf"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Documentos\\Documento\\I-028_1 Alistamiento de HW-SW.pdf",
+      "PackagePath": "staticwebassets\\Documentos\\Documento\\I-028_1 Alistamiento de HW-SW.pdf"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\Documentos\\Documento\\I-033_1 Seguridad de la Información.pdf",
+      "PackagePath": "staticwebassets\\Documentos\\Documento\\I-033_1 Seguridad de la Información.pdf"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\js\\equipos.js",
+      "PackagePath": "staticwebassets\\js\\equipos.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\js\\mantenimiento.js",
+      "PackagePath": "staticwebassets\\js\\mantenimiento.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\js\\paginasIst.js",
+      "PackagePath": "staticwebassets\\js\\paginasIst.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap5.min.css"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PaginaIst.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PaginaIst.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PaginaIst.props",
+      "PackagePath": "build\\PaginaIst.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PaginaIst.props",
+      "PackagePath": "buildMultiTargeting\\PaginaIst.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PaginaIst.props",
+      "PackagePath": "buildTransitive\\PaginaIst.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Lista de Equipos"; // 🔹 Título de la página
+}
+
+<!-- ✅ Contenedor principal para organizar el contenido -->
+<div class="container-fluid mt-4">
+
+    <!-- 🔹 Encabezado con título y botón para crear un nuevo equipo -->
+    <div class="row">
+        <div class="col-8">
+            <h2 class="text-primary">Lista de Equipos</h2> <!-- Título principal en azul -->
+        </div>
+        <div class="col-4 text-right">
+            <!-- Botón para redirigir a la página de creación de un nuevo equipo -->
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="fa-solid fa-plus"></i> Crear Nuevo Equipo
+            </a>
+        </div>
+    </div>
+
+    <!-- 🔹 Tabla de aclaraciones de campos -->
+    <div class="col-12 mt-3 text-justify" style="font-size: 20px; line-height: 1.8; margin-top: 20px;">
+        <p>Aclaración de campos:</p>
+    </div>
+
+    <!-- 🔹 Tabla de referencias para que el usuario sepa qué significan ciertos campos -->
+    <table>
+        <thead>
+            <tr>
+                <th class="px-4">Tipo Disco</th>
+                <th class="px-4">Tipo Equipo</th>
+                <th class="px-4">Tipo Memoria RAM</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="px-4">1. Mecánico</td>
+                <td class="px-4">1. Desktop</td>
+                <td class="px-4">1. 8Gb</td>
+            </tr>
+            <tr>
+                <td class="px-4">2. Sólido</td>
+                <td class="px-4">2. Laptop</td>
+                <td class="px-4">2. 12Gb</td>
+            </tr>
+            <tr>
+                <td class="px-4">3. M.2</td>
+                <td></td> 
+                <td class="px-4">3. 16Gb</td>
+            </tr>
+            <tr>
+                <td></td> 
+                <td></td>
+                <td class="px-4">4. 20Gb</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="px-4">5. 24Gb</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="px-4">6. 32Gb</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="px-4">7. 64Gb</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br /><br /> 
+
+    <!-- 🔹 Tabla principal donde se mostrarán los datos dinámicos mediante DataTables -->
+    <div class="table-responsive">
+        <!-- 🔹 Permite que la tabla sea adaptable en pantallas pequeñas -->
+        <table id="tblEquipos" class="table table-striped table-bordered" style="width: 100%">
+            <thead>
+                <tr>
+                    <!-- 🔹 Definición de las columnas que coinciden con el JSON -->
+                    <th>ID</th>
+                    <th>PLACA</th>
+                    <th>ID_EMPLEADO</th>
+                    <th>HOSTNAME</th>
+                    <th>FECHA_INICIAL</th>
+                    <th>FECHA_FINAL</th>
+                    <th>ID_TIPOEQUIPO</th>
+                    <th>MARCA</th>
+                    <th>MODELO</th>
+                    <th>SERIAL</th>
+                    <th>NIT_PROVEEDOR</th> <!-- 🔎 Campo clave que había faltado antes -->
+                    <th>GARANTIA</th>
+                    <th>FUENTE</th>
+                    <th>CAPACIDAD_FUENTE</th>
+                    <th>PROCESADOR</th>
+                    <th>CLASE_DE_DISCO_No1</th>
+                    <th>CAPACIDAD_DISCO_No1</th>
+                    <th>CLASE_DE_DISCO_No2</th>
+                    <th>CAPACIDAD_DISCO_No2</th>
+                    <th>MEMORIA_RAM_1</th>
+                    <th>MEMORIA_RAM_2</th>
+                    <th>ACCIÓN</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+<!-- 🔹 Sección para cargar el script de JavaScript que controla el DataTable -->
+@section Scripts {
+    <script src="~/js/equipos.js"></script> <!-- 📌 Archivo clave que se encarga de inicializar el DataTable -->
+}

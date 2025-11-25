@@ -1,0 +1,97 @@
+﻿@model PaginaIst.Models.PaginasIst
+
+@{
+    ViewData["Title"] = "Editar Mantenimientos";
+}
+
+<br />
+<br />
+<h3 class="text-center">Editar Mantenimiento</h3>
+<form method="POST" asp-action="Edit">
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Url"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Url" class="form-control" placeholder="Ingresa la URL" />
+                    <span asp-validation-for="Url" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Descripcion"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Descripcion" class="form-control" placeholder="Ingresa la descripción" />
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Observacion"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Observacion" class="form-control" placeholder="Ingresa la Observación" />
+                    <span asp-validation-for="Observacion" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Usuario"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Usuario" class="form-control" placeholder="Ingresa el Usuario" />
+                    <span asp-validation-for="Usuario" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Contraseña"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Contraseña" class="form-control" placeholder="Ingresa la Contraseña" />
+                    <span asp-validation-for="Contraseña" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+        </div>
+    </div>
+
+    <br />
+
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary form-control">Editar Mantenimiento</button>
+        </div>
+        &nbsp;
+        <div class="col">
+            <a asp-action="Index" class="btn btn-success form-control">Volver atrás</a>
+        </div>
+    </div>
+
+
+
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

@@ -1,0 +1,357 @@
+﻿@model PaginaIst.Models.EquiposIst // ✅ El modelo `EquiposIst` se utiliza en esta vista
+
+@{
+    ViewData["Title"] = "Editar Equipos"; // ✅ Título de la página
+}
+
+<br />
+<br />
+<h3 class="text-center">Editar Equipos</h3>
+
+<!-- ✅ Formulario para editar un equipo -->
+<form method="POST" asp-action="Edit">
+    <!-- Envia los datos mediante POST al método Edit del controlador -->
+
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="All" class="text-danger"></div> <!-- 🔹 Muestra errores de validación -->
+        <!-- 🔹 Campo Placa -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Placa"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Placa" class="form-control" placeholder="Ingresa la Placa" />
+                    <span asp-validation-for="Placa" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo ID del Empleado -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Id_Empleado"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Id_Empleado" class="form-control" placeholder="Ingresa el ID del Empleado" />
+                    <span asp-validation-for="Id_Empleado" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Hostname -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Hostname"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Hostname" class="form-control" placeholder="Ingresa el Hostname" />
+                    <span asp-validation-for="Hostname" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Fecha Inicial -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Fecha_Inicial"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Fecha_Inicial" class="form-control" placeholder="Ingresa la fecha de compra" />
+                    <span asp-validation-for="Fecha_Inicial" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Fecha Final -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Fecha_Final"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Fecha_Final" class="form-control" placeholder="Ingresa la fecha final" />
+                    <span asp-validation-for="Fecha_Final" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Marca -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Marca"></label>
+                </div>
+                <div class="col-8">
+                    <select asp-for="Marca" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="ASUS">ASUS</option>
+                        <option value="DELL">DELL</option>
+                        <option value="LENOVO">LENOVO</option>
+                        <option value="MSI">MSI</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Modelo -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Modelo"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Modelo" class="form-control" placeholder="Ingresa el modelo" />
+                    <span asp-validation-for="Modelo" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Serial -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Serial"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Serial" class="form-control" placeholder="Ingresa el Serial" />
+                    <span asp-validation-for="Serial" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Nit_Proveedor -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Nit_Proveedor"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Nit_Proveedor" class="form-control" placeholder="Ingresa el NIT del Proveedor" />
+                    <span asp-validation-for="Nit_Proveedor" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Garantia -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Garantia"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Garantia" class="form-control" placeholder="Ingresa la garantía" />
+                    <span asp-validation-for="Garantia" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- 🔹 Campo Fuente-->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Fuente"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Fuente" class="form-control" placeholder="Ingresa la fuente" />
+                    <span asp-validation-for="Fuente" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <!-- 🔹 Campo Capacidad Fuente-->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Capacidad_Fuente"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Capacidad_Fuente" class="form-control" placeholder="Ingresa la capacidad de la fuente" />
+                    <span asp-validation-for="Capacidad_Fuente" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <!-- 🔹 Campo Procesador -->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Procesador"></label>
+                </div>
+                <div class="col-8">
+                    <select asp-for="Procesador" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="ICORE 5">ICORE 5</option>
+                        <option value="ICORE 7">ICORE 7</option>
+                        <option value="AMD">AMD</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+
+
+        <!-- Campo clase disco N1-->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Clase_DiscoN1"></label>
+                </div>
+                <div class="col-8">
+                    <select asp-for="Clase_DiscoN1" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="1">Mécanico</option>
+                        <option value="2">Solido</option>
+                        <option value="3">M.2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- Campo Capacidad disco N1-->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Capacidad_Disco_N1"></label>
+                </div>
+                <div class="col-8">
+                    <select asp-for="Capacidad_Disco_N1" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="1">240</option>
+                        <option value="2">500</option>
+                        <option value="3">1000</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- Campo clase disco N2-->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Clase_Disco_N2"></label>
+                </div>
+                <div class="col-8">
+                    <select asp-for="Clase_Disco_N2" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="1">Mécanico</option>
+                        <option value="2">Solido</option>
+                        <option value="3">M.2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Campo Capacidad disco N1-->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Capacidad_Disco_N2"></label>
+                </div>
+                <div class="col-8">
+                    <select asp-for="Capacidad_Disco_N2" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="1">240</option>
+                        <option value="2">500</option>
+                        <option value="3">1000</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- Campo Memoria Ram N1-->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="MEMORIA_RAM_N1"></label>
+                </div>
+                <div class="col-8">
+                    <select asp-for="MEMORIA_RAM_N2" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="1">8</option>
+                        <option value="2">12</option>
+                        <option value="3">16</option>
+                        <option value="4">20</option>
+                        <option value="5">24</option>
+                        <option value="6">32</option>
+                        <option value="7">64</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <!-- Campo Memoria Ram N2-->
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="MEMORIA_RAM_N2"></label>
+                </div>
+                <div class="col-8">
+                    <select asp-for="MEMORIA_RAM_N2" class="form-control">
+                        <option value="">Selecciona una opción</option>
+                        <option value="1">8</option>
+                        <option value="2">12</option>
+                        <option value="3">16</option>
+                        <option value="4">20</option>
+                        <option value="5">24</option>
+                        <option value="6">32</option>
+                        <option value="7">64</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+    <br />
+    <!-- 🔹 Botones para enviar o cancelar -->
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary form-control">Editar Mantenimiento</button>
+        </div>
+        &nbsp;
+        <div class="col">
+            <a asp-action="Index" class="btn btn-success form-control">Volver atrás</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" /> <!-- 🔹 Agrega validaciones del lado cliente -->
+    }
+}

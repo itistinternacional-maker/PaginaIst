@@ -1,0 +1,88 @@
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\Pagina\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll
+E:\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+E:\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+E:\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+E:\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+E:\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+E:\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+E:\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+E:\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+E:\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+E:\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+E:\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\BackupPaginaIst\24-01-25\PaginaIst\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\BackupPaginaIst\07-03-25\PaginaIst07-03-25\PaginaIst11-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll

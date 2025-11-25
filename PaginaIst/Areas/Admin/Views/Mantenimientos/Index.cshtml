@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Lista de Mantenimientos";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-8">
+            <h2 class="text-primary">Lista de Mantenimientos</h2>
+        </div>
+        <div class="col-4 text-right">
+            <a asp-action="Create" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Crear Nuevo mantenimiento</a>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <table id="tblMantenimiento" class="table table-striped table-bordered" style="width: 100%">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FECHA</th>
+                <th>PLACA</th>
+                <th>TIPO MANTTO</th>
+                <th>COMENTARIO</th>
+                <th>RUTA ASIGNADA</th>
+                <th>ACCION</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/js/mantenimiento.js"></script>
+}
