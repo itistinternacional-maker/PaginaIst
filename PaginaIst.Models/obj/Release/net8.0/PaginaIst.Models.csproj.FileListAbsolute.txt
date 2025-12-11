@@ -1,0 +1,12 @@
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\bin\Release\net8.0\PaginaIst.Models.deps.json
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\bin\Release\net8.0\PaginaIst.Models.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\bin\Release\net8.0\PaginaIst.Models.pdb
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\PaginaIst.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\PaginaIst.Models.AssemblyInfoInputs.cache
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\PaginaIst.Models.AssemblyInfo.cs
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\PaginaIst.Models.csproj.CoreCompileInputs.cache
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\PaginaIst.Models.sourcelink.json
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\PaginaIst.Models.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\refint\PaginaIst.Models.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\PaginaIst.Models.pdb
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Models\obj\Release\net8.0\ref\PaginaIst.Models.dll

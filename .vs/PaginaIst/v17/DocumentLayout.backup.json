@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|c:\\users\\administrador.srvibm-server\\documents\\paginaist\\paginaintranet\\paginaist\\wwwroot\\js\\mantenimiento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|solutionrelative:paginaist\\wwwroot\\js\\mantenimiento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|c:\\users\\administrador.srvibm-server\\documents\\paginaist\\paginaintranet\\paginaist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|solutionrelative:paginaist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +39,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mantenimiento.js",
+              "DocumentMoniker": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\wwwroot\\js\\mantenimiento.js",
+              "RelativeDocumentMoniker": "PaginaIst\\wwwroot\\js\\mantenimiento.js",
+              "ToolTip": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\wwwroot\\js\\mantenimiento.js",
+              "RelativeToolTip": "PaginaIst\\wwwroot\\js\\mantenimiento.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T22:49:24.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\Program.cs",
+              "RelativeDocumentMoniker": "PaginaIst\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\Program.cs",
+              "RelativeToolTip": "PaginaIst\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T21:36:50.53Z",
+              "EditorCaption": ""
             }
           ]
         }

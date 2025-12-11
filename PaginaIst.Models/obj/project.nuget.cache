@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wsdGjlSs6dY=",
+  "dgSpecHash": "QZTA3/Svqr8=",
   "success": true,
-  "projectFilePath": "D:\\IT\\Pagina Interna y Web\\BackupPaginaIst\\PaginaIst25-03-25\\PaginaIst\\PaginaIst.Models\\PaginaIst.Models.csproj",
+  "projectFilePath": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst.Models\\PaginaIst.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ISTADMIN\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    "C:\\Users\\Administrador.SRVIBM-SERVER\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
