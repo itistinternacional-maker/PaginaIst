@@ -146,7 +146,7 @@ namespace PaginaIst.Areas.Equiposist.Controllers
             );
 
             var pdfBytes = _reporteEquipoService.GenerarPdfListado(listaFiltrada);
-            return File(pdfBytes, "application/pdf", "Lista_Equipos.pdf");
+            return File(pdfBytes, "application/pdf", "HOJA DE VIDA.pdf");
         }
     }
 }

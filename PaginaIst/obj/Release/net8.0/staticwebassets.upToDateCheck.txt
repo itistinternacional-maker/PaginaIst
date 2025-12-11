@@ -22,6 +22,7 @@ wwwroot\Assent\Ist\iso-14001-300x300.webp
 wwwroot\Assent\Ist\ISO-45001-215x300.png
 wwwroot\Assent\Ist\ISO-9001-202x300.png
 wwwroot\Assent\Ist\Ist.png
+wwwroot\Assent\Ist\logo.jpg
 wwwroot\Assent\Ist\Manos-manipulando-un-ordenador-portatil.jpg
 wwwroot\Assent\Ist\optimización.jpeg
 wwwroot\Assent\Ist\pdf.jpg
