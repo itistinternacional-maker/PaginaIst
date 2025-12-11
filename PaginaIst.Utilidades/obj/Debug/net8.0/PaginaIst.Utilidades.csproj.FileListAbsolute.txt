@@ -86,3 +86,15 @@ D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst
 D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
 D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
 D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst12-03-25\PaginaIst\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.deps.json
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\bin\Debug\net8.0\PaginaIst.Utilidades.pdb
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfoInputs.cache
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.AssemblyInfo.cs
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.sourcelink.json
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\refint\PaginaIst.Utilidades.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\PaginaIst.Utilidades.pdb
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.Utilidades\obj\Debug\net8.0\ref\PaginaIst.Utilidades.dll

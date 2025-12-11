@@ -1,12 +1,14 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PaginaIst.AccesoDatos.Data.Repository;
 using PaginaIst.AccesoDatos.Data.Repository.IRepository;
 using PaginaIst.Data;
-
+using QuestPDF.Infrastructure;
+using PaginaIst.Services; // ✅ Para IReporteEquipoService y ReporteEquipoService
 
 
 var builder = WebApplication.CreateBuilder( args );
+QuestPDF.Settings.License = LicenseType.Community;
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString( "ConexionSQL" ) ?? throw new InvalidOperationException( "Connexion string 'DefaultConnection' not found" );
@@ -23,8 +25,12 @@ builder.Services.AddDefaultIdentity<IdentityUser>( options => options.SignIn.Req
 
 builder.Services.AddControllersWithViews();
 
-//Agregar contendedor de trabajo al contendero IoC de inyecci�n de dependencias
+//Agregar contendedor de trabajo al contendero IoC de inyección de dependencias
 builder.Services.AddScoped<IContenedorTrabajo , ContenedorTrabajo>();
+
+// 🧾 Servicio de reportes PDF
+builder.Services.AddScoped<IReporteEquipoService, ReporteEquipoService>();
+
 
 var app = builder.Build();
 

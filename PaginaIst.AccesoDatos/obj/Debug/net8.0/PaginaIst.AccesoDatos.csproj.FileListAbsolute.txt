@@ -168,3 +168,21 @@ D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst25-03-25\PaginaIst\PaginaIst
 D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst25-03-25\PaginaIst\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.pdb
 D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst25-03-25\PaginaIst\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.genruntimeconfig.cache
 D:\IT\Pagina Interna y Web\BackupPaginaIst\PaginaIst25-03-25\PaginaIst\PaginaIst.AccesoDatos\obj\Debug\net8.0\ref\PaginaIst.AccesoDatos.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\bin\Debug\net8.0\PaginaIst.AccesoDatos.deps.json
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\bin\Debug\net8.0\PaginaIst.AccesoDatos.runtimeconfig.json
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\bin\Debug\net8.0\PaginaIst.AccesoDatos.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\bin\Debug\net8.0\PaginaIst.AccesoDatos.pdb
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\bin\Debug\net8.0\PaginaIst.Models.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\bin\Debug\net8.0\PaginaIst.Models.pdb
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.AssemblyInfo.cs
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.sourcelink.json
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIs.A8AA080D.Up2Date
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\refint\PaginaIst.AccesoDatos.dll
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.pdb
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\PaginaIst.AccesoDatos.genruntimeconfig.cache
+C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\PaginaIst.AccesoDatos\obj\Debug\net8.0\ref\PaginaIst.AccesoDatos.dll
