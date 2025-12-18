@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaginaIst.AccesoDatos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9138c925afa63f0d0df9f43803ad9eea312a914")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1e4dd7cad43a482912843dc760d5df1e483faea")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaginaIst.AccesoDatos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaginaIst.AccesoDatos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
