@@ -76,10 +76,7 @@ function cargarDatatable() {
 
                             &nbsp;
                             &nbsp;
-                            <a href="/EquiposIst/EquipoIT/DetallePdf/${data}"
-                               class="btn btn-outline-danger">
-                                <i class="far fa-file-pdf"></i> PDF
-                            </a>
+                   
                         </div>`;
                 },
                 width: "15%"
