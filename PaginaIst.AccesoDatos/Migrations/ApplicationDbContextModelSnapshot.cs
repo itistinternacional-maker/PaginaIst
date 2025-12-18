@@ -386,6 +386,87 @@ namespace PaginaIst.AccesoDatos.Migrations
                     b.ToTable("Equipos");
                 });
 
+            modelBuilder.Entity("PaginaIst.Models.EquiposRentados", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("Capacidad_Disco_N1")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Capacidad_Disco_N2")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Capacidad_Fuente")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Clase_DiscoN1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Clase_Disco_N2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("Fecha_Final")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Fecha_Inicial")
+                        .IsRequired()
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Fuente")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Garantia")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Hostname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Id_Empleado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Id_Tipoequipo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MEMORIA_RAM_N1")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MEMORIA_RAM_N2")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Marca")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Modelo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nit_Proveedor")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Placa")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Procesador")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Serial")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("EquiposRentados");
+                });
+
             modelBuilder.Entity("PaginaIst.Models.Historia_Empleado", b =>
                 {
                     b.Property<int>("Id")

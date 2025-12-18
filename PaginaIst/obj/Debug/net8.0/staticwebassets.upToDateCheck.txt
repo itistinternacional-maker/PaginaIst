@@ -45,6 +45,7 @@ wwwroot\Documentos\Documento\I-028_1 Alistamiento de HW-SW.pdf
 wwwroot\Documentos\Documento\I-033_1 Seguridad de la Información.pdf
 wwwroot\favicon.ico
 wwwroot\js\equipos.js
+wwwroot\js\equiposrentados.js
 wwwroot\js\mantenimiento.js
 wwwroot\js\paginasIst.js
 wwwroot\js\site.js
