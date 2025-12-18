@@ -9,6 +9,8 @@
 
         IEquipoIstRepository EquiposIst { get; }
 
+        IEquipoRentadosRepository EquiposRentados { get; }
+
         //IRecursoRepository Recursos { get; }
 
         void Save ();

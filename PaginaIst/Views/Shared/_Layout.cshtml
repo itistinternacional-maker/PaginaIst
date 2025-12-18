@@ -42,12 +42,24 @@
  *@                                <a class="dropdown-item" asp-area="Admin" asp-controller="Contrasena" asp-action="Index">Paginas_TI</a>
                             </div>
                         </li>
+                        @* EQUIPOS *@
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Equipos</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-area="EquiposIst" asp-controller="EquipoIT" asp-action="Index">Equipos Ist</a>
+                                <a class="dropdown-item" asp-area="EquiposRentados" asp-controller="EquipoRentados" asp-action="Index">Equipos Rentados</a>
+@*                                 <a class="dropdown-item" asp-area="Admin" asp-controller="Mantenimientos" asp-action="Index">Mantenimientos</a>
+ *@                            </div>
+                        </li>
                         @* MANTEMIENTO *@
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mantenimiento</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mantenimientos</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" asp-area="EquiposIst" asp-controller="EquipoIT" asp-action="Index">Equipos</a>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Mantenimientos" asp-action="Index">Mantenimientos</a>
+@*                                 <a class="dropdown-item" asp-area="EquiposIst" asp-controller="EquipoIT" asp-action="Index">Equipos Ist</a>
+                                <a class="dropdown-item" asp-area="EquiposRentados" asp-controller="EquipoRentados" asp-action="Index">Equipos Rentados</a>
+ *@                                
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Mantenimientos" asp-action="Index">Mantenimientos Ist</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="" asp-action="Index">Mantenimientos Rentados</a>
                             </div>
                         </li>
                         @* HSEQ *@

@@ -88,6 +88,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBvc0lzdFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/EquiposRentados/Views/EquipoRentados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBvc1JlbnRhZG9zXFZpZXdzXEVxdWlwb1JlbnRhZG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/EquiposRentados/Views/EquipoRentados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBvc1JlbnRhZG9zXFZpZXdzXEVxdWlwb1JlbnRhZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/EquiposRentados/Views/EquipoRentados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBvc1JlbnRhZG9zXFZpZXdzXEVxdWlwb1JlbnRhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/EquiposRentados/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBvc1JlbnRhZG9zXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/EquiposRentados/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBvc1JlbnRhZG9zXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

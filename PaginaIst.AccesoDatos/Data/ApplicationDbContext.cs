@@ -13,11 +13,13 @@ namespace PaginaIst.Data
         public DbSet<Area> Area { get; set; }
         public DbSet<Empleados> Empleados { get; set; }
         public DbSet<EquiposIst> Equipos { get; set; }
+        public DbSet<EquiposRentados> EquiposRentados { get; set; }
         public DbSet<Historia_Mantenimiento> Historia_Mantenimientos { get; set; }
         public DbSet<Historia_Empleado> Historia_Empleado { get; set; }
         public DbSet<Equipo_Software> Equipo_Software { get; set; }
         public DbSet<Historia_Salario> Historia_Salario { get; set; }
         public DbSet<Mantenimiento> Mantenimiento { get; set; }
+        //public DbSet<Mantenimiento_rentados> Mantenimientos_rentados { get; set; }
         public DbSet<PaginasIst> PaginasIsts { get; set; }
         public DbSet<Proveedores> Proveedores { get; set; }
         public DbSet<Recursos> Recursos { get; set; }
