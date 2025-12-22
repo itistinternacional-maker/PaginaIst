@@ -1,57 +1,68 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using PaginaIst.AccesoDatos.Data.Repository;
 using PaginaIst.AccesoDatos.Data.Repository.IRepository;
+using PaginaIst.Areas.Identity.Services;
 using PaginaIst.Data;
+using PaginaIst.Seed;
+using PaginaIst.Services;
 using QuestPDF.Infrastructure;
-using PaginaIst.Services; // ✅ Para IReporteEquipoService y ReporteEquipoService
 
+var builder = WebApplication.CreateBuilder(args);
 
-var builder = WebApplication.CreateBuilder( args );
 QuestPDF.Settings.License = LicenseType.Community;
 
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString( "ConexionSQL" ) ?? throw new InvalidOperationException( "Connexion string 'DefaultConnection' not found" );
+var connectionString = builder.Configuration.GetConnectionString("ConexionSQL")
+    ?? throw new InvalidOperationException("Connection string 'ConexionSQL' not found");
 
-builder.Services.AddDbContext<ApplicationDbContext>( options => options.UseSqlServer( connectionString ) );
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddDbContext<ApplicationDbContext> ( options =>
+    options.UseSqlServer ( connectionString ) );
 
-//builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
-//    .AddEntityFrameworkStores<ApplicationDbContext>()
-//    .AddDefaultUI();
+builder.Services.AddDatabaseDeveloperPageExceptionFilter ( );
 
-builder.Services.AddDefaultIdentity<IdentityUser>( options => options.SignIn.RequireConfirmedAccount = false )
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+// ✅ Identity + Roles
+builder.Services.AddDefaultIdentity<IdentityUser> ( options => options.SignIn.RequireConfirmedAccount = false )
+    .AddRoles<IdentityRole> ( )
+    .AddEntityFrameworkStores<ApplicationDbContext> ( );
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IEmailSender , DevEmailSender> ( );
 
-//Agregar contendedor de trabajo al contendero IoC de inyección de dependencias
-builder.Services.AddScoped<IContenedorTrabajo , ContenedorTrabajo>();
+builder.Services.AddTransient<IEmailSender , SmtpEmailSender> ( );
 
-// 🧾 Servicio de reportes PDF
-builder.Services.AddScoped<IReporteEquipoService, ReporteEquipoService>();
+builder.Services.AddControllersWithViews ( );
+builder.Services.AddRazorPages ( ); // ✅ ya que usas Areas/Identity/Pages
 
+builder.Services.AddScoped<IContenedorTrabajo , ContenedorTrabajo> ( );
+builder.Services.AddScoped<IReporteEquipoService , ReporteEquipoService> ( );
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// ✅ Seed roles al arrancar
+using ( var scope = app.Services.CreateScope ( ) )
     {
-    app.UseMigrationsEndPoint();
+    await RoleSeeder.SeedAsync ( scope.ServiceProvider );
+    }
+
+if ( app.Environment.IsDevelopment ( ) )
+    {
+    app.UseMigrationsEndPoint ( );
     }
 else
     {
-    app.UseExceptionHandler( "/Home/Error" );
+    app.UseExceptionHandler ( "/Home/Error" );
     }
-app.UseStaticFiles();
 
-app.UseRouting();
+app.UseStaticFiles ( );
+app.UseRouting ( );
 
-app.UseAuthorization();
+// ✅ faltaba
+app.UseAuthentication ( );
+app.UseAuthorization ( );
 
-app.MapControllerRoute(
+app.MapControllerRoute (
     name: "default" ,
     pattern: "{area=Usuario}/{controller=Home}/{action=Index}/{id?}" );
-app.MapRazorPages();
 
-app.Run();
+app.MapRazorPages ( );
+app.Run ( );

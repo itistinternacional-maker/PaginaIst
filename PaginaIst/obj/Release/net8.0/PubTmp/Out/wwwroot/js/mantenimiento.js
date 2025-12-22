@@ -20,6 +20,7 @@ function cargarDatatable() {
             {
                 "data": "id",
                 "render": function (data) {
+                    if (!window.canEditMantenimiento) return "";
                     return `
                         <div class="d-flex justify-content-center">
                             <a href="/Admin/Mantenimientos/Edit/${data}" class="btn btn-success text-white">

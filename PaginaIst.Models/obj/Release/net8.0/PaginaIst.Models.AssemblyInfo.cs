@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaginaIst.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1e4dd7cad43a482912843dc760d5df1e483faea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98e6e121480f9a2139ba9abbac1ddbfe9bfceb5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaginaIst.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaginaIst.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

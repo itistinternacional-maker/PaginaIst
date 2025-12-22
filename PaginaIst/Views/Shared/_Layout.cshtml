@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - PaginaIst</title>
+    <title>Ist Intranet</title>
+    <link rel="shortcut icon" href="~/Assent/Favicon/logo.ico" type="image/x-icon" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap5.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    @*     <link rel="stylesheet" href="~/PaginaIst.styles.css" asp-append-version="true" /> *@
+    @*<link rel="stylesheet" href="~/PaginaIst.styles.css" asp-append-version="true" /> *@
 
     <!--Css todos-->
     <link rel="stylesheet" href="https://cdn.datatables.net/2.0.0/css/dataTables.dataTables.min.css" />
@@ -20,10 +21,17 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" asp-area="Usuario" asp-controller="Home" asp-action="Index"><img src="~/Assent/Ist/logo.jpg" alt="Logo IST" width="48" height="30" class="me-2">Intranet Ist</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand d-flex align-items-center"
+                   asp-area="Usuario" asp-controller="Home" asp-action="Index">
+                    <img src="~/Assent/Ist/logo.jpg" alt="Logo IST" width="48" height="30" class="me-2">
+                    Intranet Ist
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
@@ -32,46 +40,51 @@
                                 <span class="visually-hidden">(current)</span>
                             </a>
                         </li>
+
+                        @if ( User.IsInRole ( "Admin" ) || User.IsInRole ( "IT" ) )
+                            {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="true" aria-expanded="false">IT</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Mantenimientos" asp-action="Index">Mantenimientos</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Contrasena" asp-action="Index">Paginas_TI</a>
+                                </div>
+                            </li>
+                            }
+
+                        @if ( User.IsInRole ( "Admin" ) || User.IsInRole ( "IT" ) || User.IsInRole ( "Mantenimiento" ) )
+                            {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Equipos</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="EquiposIst" asp-controller="EquipoIT" asp-action="Index">Equipos Ist</a>
+                                    <a class="dropdown-item" asp-area="EquiposRentados" asp-controller="EquipoRentados" asp-action="Index">Equipos Rentados</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Mantenimientos</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Mantenimientos" asp-action="Index">Mantenimientos Ist</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="" asp-action="Index">Mantenimientos Rentados</a>
+                                </div>
+                            </li>
+                            }
+
                         <li class="nav-item dropdown">
-                            @* IT *@
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">IT</a>
-                            <div class="dropdown-menu">
-                                @* <a class="dropdown-item" asp-area="Admin" asp-controller="It" asp-action="Index">Crear Ticket</a> *@
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Mantenimientos" asp-action="Index">Mantenimientos</a>
-@*                                 <a class="dropdown-item" asp-area="IT2" asp-controller="Home" asp-action="Documentos">Documento_TI</a>
- *@                                <a class="dropdown-item" asp-area="Admin" asp-controller="Contrasena" asp-action="Index">Paginas_TI</a>
-                            </div>
-                        </li>
-                        @* EQUIPOS *@
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Equipos</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" asp-area="EquiposIst" asp-controller="EquipoIT" asp-action="Index">Equipos Ist</a>
-                                <a class="dropdown-item" asp-area="EquiposRentados" asp-controller="EquipoRentados" asp-action="Index">Equipos Rentados</a>
-@*                                 <a class="dropdown-item" asp-area="Admin" asp-controller="Mantenimientos" asp-action="Index">Mantenimientos</a>
- *@                            </div>
-                        </li>
-                        @* MANTEMIENTO *@
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mantenimientos</a>
-                            <div class="dropdown-menu">
-@*                                 <a class="dropdown-item" asp-area="EquiposIst" asp-controller="EquipoIT" asp-action="Index">Equipos Ist</a>
-                                <a class="dropdown-item" asp-area="EquiposRentados" asp-controller="EquipoRentados" asp-action="Index">Equipos Rentados</a>
- *@                                
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Mantenimientos" asp-action="Index">Mantenimientos Ist</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="" asp-action="Index">Mantenimientos Rentados</a>
-                            </div>
-                        </li>
-                        @* HSEQ *@
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">HSEQ</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                               aria-haspopup="true" aria-expanded="false">HSEQ</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" asp-area="Usuario" asp-controller="Recursos" asp-action="Index">HSEQ</a>
                             </div>
                         </li>
-                        @* TICKETS *@
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tickets</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                               aria-haspopup="true" aria-expanded="false">Tickets</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" asp-area="Admin" asp-controller="It" asp-action="Index">Ticket TI</a>
                                 <a class="dropdown-item" asp-area="Ticket" asp-controller="Home" asp-action="Index">Ticket Mantenimiento</a>
@@ -79,13 +92,14 @@
                         </li>
                     </ul>
                 </div>
+
                 <partial name="_LoginPartial" />
             </div>
         </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+            @RenderBody( )
         </main>
     </div>
 
@@ -142,6 +156,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.10.5/sweetalert2.min.js"></script>
 
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+    @await RenderSectionAsync( "Scripts" , @required: false )
+    </body>
 </html>
