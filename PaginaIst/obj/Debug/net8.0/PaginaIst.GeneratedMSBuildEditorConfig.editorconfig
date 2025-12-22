@@ -108,8 +108,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBvc1JlbnRhZG9zXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/Identity/Seed/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcU2VlZFxfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Administrador.SRVIBM-SERVER/Documents/PaginaIst/PaginaIntranet/PaginaIst/Areas/IT2/Views/Home/Documentos.cshtml]

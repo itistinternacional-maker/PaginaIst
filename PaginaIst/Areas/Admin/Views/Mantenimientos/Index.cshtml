@@ -1,6 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Lista de Mantenimientos";
-}
+    ViewData ["Title"] = "Lista de Mantenimientos";
+    }
 
 <div class="container mt-4">
     <div class="row">
@@ -8,12 +8,17 @@
             <h2 class="text-primary">Lista de Mantenimientos</h2>
         </div>
         <div class="col-4 text-right">
-            <a asp-action="Create" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Crear Nuevo mantenimiento</a>
+            @if ( User.IsInRole ( "Admin" ) || User.IsInRole ( "IT" ) || User.IsInRole ( "Mantenimiento" ) )
+                {
+                <a asp-action="Create" class="btn btn-primary">
+                    <i class="fa-solid fa-plus"></i> Crear Nuevo mantenimiento
+                </a>
+                }
         </div>
     </div>
 
-    <br />
-    <br />
+    <br /><br />
+
     <table id="tblMantenimiento" class="table table-striped table-bordered" style="width: 100%">
         <thead>
             <tr>
@@ -29,6 +34,9 @@
     </table>
 </div>
 
-@section Scripts {
+    @section Scripts {
+    <script>
+        window.canEditMantenimiento = @( (User.IsInRole("Admin") || User.IsInRole("IT") || User.IsInRole("Mantenimiento")).ToString().ToLower() );
+    </script>
     <script src="~/js/mantenimiento.js"></script>
-}
+    }

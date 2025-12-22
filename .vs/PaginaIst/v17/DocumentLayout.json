@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|c:\\users\\administrador.srvibm-server\\documents\\paginaist\\paginaintranet\\paginaist\\areas\\usuario\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|solutionrelative:paginaist\\areas\\usuario\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +35,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\Areas\\Usuario\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PaginaIst\\Areas\\Usuario\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\Areas\\Usuario\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PaginaIst\\Areas\\Usuario\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAPsCAAAAAAAAAAAAAPkCAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T16:33:19.184Z",
+              "EditorCaption": ""
             }
           ]
         }

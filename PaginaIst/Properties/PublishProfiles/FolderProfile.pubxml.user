@@ -3,7 +3,120 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\Administrador.SRVIBM-SERVER\Documents\PaginaIst\PaginaIntranet\release</_PublishTargetUrl>
-    <History>True|2025-12-18T16:41:06.1564757Z||;True|2025-12-18T11:36:23.5389290-05:00||;True|2025-12-18T11:36:06.8225489-05:00||;True|2025-12-18T10:53:04.3733900-05:00||;True|2025-12-18T10:31:49.3993147-05:00||;True|2025-12-18T10:17:46.7312293-05:00||;True|2025-12-17T16:33:05.3525402-05:00||;True|2025-12-11T18:13:20.8233073-05:00||;True|2025-12-11T18:07:57.6057732-05:00||;True|2025-12-11T18:02:36.3470053-05:00||;True|2025-12-11T17:57:33.9734500-05:00||;True|2025-12-11T14:38:26.0624687-05:00||;True|2025-12-09T18:04:37.7757278-05:00||;True|2025-12-09T18:02:37.8958912-05:00||;True|2025-12-09T17:58:22.8169209-05:00||;True|2025-12-09T17:51:33.1028210-05:00||;True|2025-12-09T17:50:18.7145813-05:00||;True|2025-12-03T16:39:08.0944434-05:00||;True|2025-12-03T16:34:36.7203764-05:00||;True|2025-12-02T17:09:32.5855745-05:00||;True|2025-11-20T15:54:38.6402755-05:00||;</History>
+    <History>True|2025-12-22T22:22:23.6212616Z||;True|2025-12-22T14:28:07.3202977-05:00||;True|2025-12-22T11:21:09.9015025-05:00||;True|2025-12-22T11:18:42.8131310-05:00||;True|2025-12-22T11:15:42.7445116-05:00||;True|2025-12-22T11:07:27.1866715-05:00||;True|2025-12-22T10:54:14.2460929-05:00||;True|2025-12-22T10:50:40.5908978-05:00||;True|2025-12-19T15:39:17.0343206-05:00||;True|2025-12-18T11:41:06.1564757-05:00||;True|2025-12-18T11:36:23.5389290-05:00||;True|2025-12-18T11:36:06.8225489-05:00||;True|2025-12-18T10:53:04.3733900-05:00||;True|2025-12-18T10:31:49.3993147-05:00||;True|2025-12-18T10:17:46.7312293-05:00||;True|2025-12-17T16:33:05.3525402-05:00||;True|2025-12-11T18:13:20.8233073-05:00||;True|2025-12-11T18:07:57.6057732-05:00||;True|2025-12-11T18:02:36.3470053-05:00||;True|2025-12-11T17:57:33.9734500-05:00||;True|2025-12-11T14:38:26.0624687-05:00||;True|2025-12-09T18:04:37.7757278-05:00||;True|2025-12-09T18:02:37.8958912-05:00||;True|2025-12-09T17:58:22.8169209-05:00||;True|2025-12-09T17:51:33.1028210-05:00||;True|2025-12-09T17:50:18.7145813-05:00||;True|2025-12-03T16:39:08.0944434-05:00||;True|2025-12-03T16:34:36.7203764-05:00||;True|2025-12-02T17:09:32.5855745-05:00||;True|2025-11-20T15:54:38.6402755-05:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="wwwroot/Assent/Ist/1-300x206.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/2-300x206.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/3-300x206.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/4-300x206.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/5-300x206.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/6-300x206.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/Arhivo_Llave-removebg-preview.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/automatizacion-industrial.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/automatizacion-petrolera-300x216.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/consul-300x169.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/consultor.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/contacto-300x127.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/control avanzado.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/descarga-removebg-preview.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/digitalizacion-de-documentos-1.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/documentos.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/energia-eolica-1-300x206.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/FONDO-3_11zon-300x206.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/IMG_20220929_173936779.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/iso-14001-300x300.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/iso-14001-300x300.webp">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/ISO-45001-215x300.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/ISO-9001-202x300.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/Ist.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/logo.jpg">
+      <publishTime>09/01/2011 10:43:06</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/Manos-manipulando-un-ordenador-portatil.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/optimización.jpeg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/pdf.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/png-clipart-approved-approved-removebg-preview-1.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/portada.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/proyectos-tecnologicos-portada.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/RFID-Activos-768x520.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/Servicios de Integración.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/soporte-tecnico-300x139.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/sostenimiento.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/talento.jpg">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+    <File Include="wwwroot/Assent/Ist/Tratamiento de Datos Personales.png">
+      <publishTime>11/20/2025 15:23:09</publishTime>
+    </File>
+  </ItemGroup>
 </Project>
