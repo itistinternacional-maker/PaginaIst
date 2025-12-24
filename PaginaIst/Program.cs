@@ -7,6 +7,7 @@ using PaginaIst.Areas.Identity.Services;
 using PaginaIst.Data;
 using PaginaIst.Seed;
 using PaginaIst.Services;
+using PaginaIst.Servicesrentados;
 using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,6 +36,7 @@ builder.Services.AddRazorPages ( ); // ✅ ya que usas Areas/Identity/Pages
 
 builder.Services.AddScoped<IContenedorTrabajo , ContenedorTrabajo> ( );
 builder.Services.AddScoped<IReporteEquipoService , ReporteEquipoService> ( );
+builder.Services.AddScoped<IReporteEquipoServicerentados , ReporteEquipoServicerentados> ( );
 
 var app = builder.Build();
 

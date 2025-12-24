@@ -648,6 +648,36 @@ namespace PaginaIst.AccesoDatos.Migrations
                     b.ToTable("Recursos");
                 });
 
+            modelBuilder.Entity("PaginaIst.Models.Rentados", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comentario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Placa")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Ruta_evidencias")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Tipo_mantto")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Rentado");
+                });
+
             modelBuilder.Entity("PaginaIst.Models.Software", b =>
                 {
                     b.Property<int>("id")

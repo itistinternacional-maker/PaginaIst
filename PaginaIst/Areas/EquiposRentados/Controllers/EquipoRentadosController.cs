@@ -2,150 +2,128 @@
 using Microsoft.Extensions.Logging;
 using PaginaIst.AccesoDatos.Data.Repository.IRepository;
 using PaginaIst.Models;
-using PaginaIst.Services;            // IReporteEquipoService
+using PaginaIst.Servicesrentados;   // ✅ importante
 using System;
 using System.Linq;
 
 namespace PaginaIst.Areas.EquiposRentados.Controllers
-{
-    [Area("EquiposRentados")]
-    public class EquipoRentadosController : Controller
     {
+    [Area ( "EquiposRentados" )]
+    public class EquipoRentadosController : Controller
+        {
         private readonly IContenedorTrabajo _contenedorTrabajo;
         private readonly ILogger<EquipoRentadosController> _logger;
-        private readonly IReporteEquipoService _reporteEquipoService;
+        private readonly IReporteEquipoServicerentados _reporteEquipoService; // ✅
 
-        // ✅ ÚNICO CONSTRUCTOR con inyección de dependencias
-        public EquipoRentadosController(
-            IContenedorTrabajo contenedorTrabajo,
-            ILogger<EquipoRentadosController> logger,
-            IReporteEquipoService reporteEquipoService)
-        {
+        public EquipoRentadosController (
+            IContenedorTrabajo contenedorTrabajo ,
+            ILogger<EquipoRentadosController> logger ,
+            IReporteEquipoServicerentados reporteEquipoService ) // ✅
+            {
             _contenedorTrabajo = contenedorTrabajo;
             _logger = logger;
             _reporteEquipoService = reporteEquipoService;
-        }
+            }
 
-        // Vista principal
         [HttpGet]
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public IActionResult Index () => View ( );
 
-        // Crear equipo (GET)
         [HttpGet]
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create () => View ( );
 
-        // Crear equipo (POST)
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Models.EquiposRentados equiporentados)
-        {
-            if (ModelState.IsValid)
+        public IActionResult Create ( Models.EquiposRentados equiporentados )
             {
-                _contenedorTrabajo.EquiposRentados.Add(equiporentados);
-                _contenedorTrabajo.Save();
-                return RedirectToAction(nameof(Index));
+            if ( ModelState.IsValid )
+                {
+                _contenedorTrabajo.EquiposRentados.Add ( equiporentados ); // ✅ correcto
+                _contenedorTrabajo.Save ( );
+                return RedirectToAction ( nameof ( Index ) );
+                }
+            return View ( equiporentados );
             }
-            return View(equiporentados);
-        }
 
-        // Editar equipo (GET)
         [HttpGet]
-        public IActionResult Edit(int id)
-        {
+        public IActionResult Edit ( int id )
+            {
             var equipo = _contenedorTrabajo.EquiposRentados.Get(id);
-            if (equipo == null)
-                return NotFound();
+            if ( equipo == null ) return NotFound ( );
+            return View ( equipo );
+            }
 
-            return View(equipo);
-        }
-
-        // Editar equipo (POST)
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Models.EquiposRentados equipoRentados)
-        {
-            if (ModelState.IsValid)
+        public IActionResult Edit ( Models.EquiposRentados equiporentados )
             {
-                _contenedorTrabajo.EquiposRentados.Update(equipoRentados);
-                _contenedorTrabajo.Save();
-                return RedirectToAction(nameof(Index));
+            if ( ModelState.IsValid )
+                {
+                _contenedorTrabajo.EquiposRentados.Update ( equiporentados ); // ✅ correcto
+                _contenedorTrabajo.Save ( );
+                return RedirectToAction ( nameof ( Index ) );
+                }
+            return View ( equiporentados );
             }
-            return View(equipoRentados);
-        }
 
-        // Eliminar equipo (AJAX - DELETE)
         [HttpDelete]
-        public IActionResult Delete(int id)
-        {
+        public IActionResult Delete ( int id )
+            {
             var objFromDb = _contenedorTrabajo.EquiposRentados.Get(id);
-            if (objFromDb == null)
-                return Json(new { success = false, message = "Error eliminando equipo" });
+            if ( objFromDb == null )
+                return Json ( new { success = false , message = "Error eliminando equipo" } );
 
-            _contenedorTrabajo.EquiposRentados.Remove(objFromDb);
-            _contenedorTrabajo.Save();
-            return Json(new { success = true, message = "Equipo eliminado correctamente" });
-        }
+            _contenedorTrabajo.EquiposRentados.Remove ( objFromDb );
+            _contenedorTrabajo.Save ( );
+            return Json ( new { success = true , message = "Equipo eliminado correctamente" } );
+            }
 
-        // Datos para DataTables
         [HttpGet]
-        public IActionResult GetAll()
-        {
-            var equipos = _contenedorTrabajo.EquiposRentados.GetAll();
-            return Json(new { data = equipos });
-        }
+        public IActionResult GetAll ()
+            {
+            var equiporentados = _contenedorTrabajo.EquiposRentados.GetAll();
+            return Json ( new { data = equiporentados } );
+            }
 
-        //// 🔹 PDF individual de un equipo
-        //[HttpGet]
-        //public IActionResult DetallePdf(int id)
-        //{
-        //    var equiporentado = _contenedorTrabajo.EquiposRentados.Get(id);
-        //    if (equiporentado == null)
-        //        return NotFound();
+        // PDF individual
+        [HttpGet]
+        public IActionResult DetallePdf ( int id )
+            {
+            var equiporentados = _contenedorTrabajo.EquiposRentados.Get(id);
+            if ( equiporentados == null ) return NotFound ( );
 
-        //    var pdfBytes = _reporteEquipoService.GenerarPdfEquipo(equiporentado);
-        //    var fileName = $"Equipo_{id}.pdf";
+            var pdfBytes = _reporteEquipoService.GenerarPdfEquipo(equiporentados); // ✅
+            return File ( pdfBytes , "application/pdf" , $"Equipo_{id}.pdf" );
+            }
 
-        //    return File(pdfBytes, "application/pdf", fileName);
-        //}
+        // PDF listado
+        [HttpGet]
+        public IActionResult ExportarPdf ( string search )
+            {
+            var equiporentados = _contenedorTrabajo.EquiposRentados.GetAll();
 
-        //// 🔹 PDF del listado (respeta el filtro del buscador)
-        //[HttpGet]
-        //public IActionResult ExportarPdf(string search)
-        //{
-        //    var equipos = _contenedorTrabajo.EquiposRentados.GetAll();
+            if ( !string.IsNullOrWhiteSpace ( search ) )
+                {
+                var filtro = search.Trim().ToLower();
 
-        //    if (!string.IsNullOrWhiteSpace(search))
-        //    {
-        //        var filtro = search.Trim().ToLower();
+                equiporentados = equiporentados.Where ( e =>
+                    e.Placa.ToString ( ).ToLower ( ).Contains ( filtro ) ||
+                    (!string.IsNullOrEmpty ( e.Hostname ) && e.Hostname.ToLower ( ).Contains ( filtro )) ||
+                    (!string.IsNullOrEmpty ( e.Marca ) && e.Marca.ToLower ( ).Contains ( filtro )) ||
+                    (!string.IsNullOrEmpty ( e.Modelo ) && e.Modelo.ToLower ( ).Contains ( filtro )) ||
+                    (!string.IsNullOrEmpty ( e.Serial ) && e.Serial.ToLower ( ).Contains ( filtro ))
+                );
+                }
 
-        //        // Filtro básico por campos clave
-        //        equipos = equipos.Where(e =>
-        //            e.Placa.ToString().ToLower().Contains(filtro) ||
-        //            (!string.IsNullOrEmpty(e.Hostname) && e.Hostname.ToLower().Contains(filtro)) ||
-        //            (!string.IsNullOrEmpty(e.Marca) && e.Marca.ToLower().Contains(filtro)) ||
-        //            (!string.IsNullOrEmpty(e.Modelo) && e.Modelo.ToLower().Contains(filtro)) ||
-        //            (!string.IsNullOrEmpty(e.Serial) && e.Serial.ToLower().Contains(filtro))
-        //        );
-        //    }
+            var listaFiltrada = equiporentados.ToList();
 
-            //var listaFiltrada = equipos.ToList();
+            var usuario = User?.Identity?.Name ?? "Anonimo";
+            _logger.LogInformation (
+                "ExportarPdf ListaEquiposRentados | Usuario: {Usuario} | Filtro: {Filtro} | Cantidad: {Total}" ,
+                usuario , search , listaFiltrada.Count
+            );
 
-            // Log de auditoría
-            //var usuario = User?.Identity?.Name ?? "Anonimo";
-            //_logger.LogInformation(
-            //    "ExportarPdf ListaEquipos | Usuario: {Usuario} | Filtro: {Filtro} | Cantidad: {Total}",
-            //    usuario,
-            //    search,
-            //    listaFiltrada.Count
-            //);
-
-            //var pdfBytes = _reporteEquipoService.GenerarPdfListado(listaFiltrada);
-            //return File(pdfBytes, "application/pdf", "HOJA DE VIDA.pdf");
+            var pdfBytes = _reporteEquipoService.GenerarPdfListado(listaFiltrada); // ✅ ahora sí
+            return File ( pdfBytes , "application/pdf" , "HOJA DE VIDA.pdf" );
+            }
         }
     }

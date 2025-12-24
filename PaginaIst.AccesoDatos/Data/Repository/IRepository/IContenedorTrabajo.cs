@@ -10,6 +10,7 @@
         IEquipoIstRepository EquiposIst { get; }
 
         IEquipoRentadosRepository EquiposRentados { get; }
+        IRentadosRepository Rentados { get; }
 
         //IRecursoRepository Recursos { get; }
 
