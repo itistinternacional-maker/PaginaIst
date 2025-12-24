@@ -73,7 +73,6 @@ function cargarDatatable() {
                             <a href="/EquiposRentados/EquipoRentados/Edit/${data}" class="btn btn-success text-white">
                                 <i class="far fa-edit"></i> Editar
                             </a>
-
                             &nbsp;
                             &nbsp;
                             <a href="/EquiposRentados/EquipoRentados/DetallePdf/${data}"

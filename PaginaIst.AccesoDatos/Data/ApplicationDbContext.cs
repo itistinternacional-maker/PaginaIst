@@ -19,10 +19,10 @@ namespace PaginaIst.Data
         public DbSet<Equipo_Software> Equipo_Software { get; set; }
         public DbSet<Historia_Salario> Historia_Salario { get; set; }
         public DbSet<Mantenimiento> Mantenimiento { get; set; }
-        //public DbSet<Mantenimiento_rentados> Mantenimientos_rentados { get; set; }
         public DbSet<PaginasIst> PaginasIsts { get; set; }
         public DbSet<Proveedores> Proveedores { get; set; }
         public DbSet<Recursos> Recursos { get; set; }
+        public DbSet<Rentados> Rentado { get; set; }
         public DbSet<Software> Software { get; set; }
         public DbSet<Tipo_Equipo> Tipo_Equipo { get; set; }
         public DbSet<Tipo_Mantenimiento> Tipo_Mantenimiento { get; set; }

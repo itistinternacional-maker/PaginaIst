@@ -3,19 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|c:\\users\\administrador.srvibm-server\\documents\\paginaist\\paginaintranet\\paginaist\\areas\\usuario\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|solutionrelative:paginaist\\areas\\usuario\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|c:\\users\\administrador.srvibm-server\\documents\\paginaist\\paginaintranet\\paginaist\\wwwroot\\js\\equipos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|solutionrelative:paginaist\\wwwroot\\js\\equipos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|c:\\users\\administrador.srvibm-server\\documents\\paginaist\\paginaintranet\\paginaist\\wwwroot\\js\\equiposrentados.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3D949AC0-CBA8-4384-BCA6-3F86FCDC5554}|PaginaIst\\PaginaIst.csproj|solutionrelative:paginaist\\wwwroot\\js\\equiposrentados.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 170,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "equipos.js",
+              "DocumentMoniker": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\wwwroot\\js\\equipos.js",
+              "RelativeDocumentMoniker": "PaginaIst\\wwwroot\\js\\equipos.js",
+              "ToolTip": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\wwwroot\\js\\equipos.js",
+              "RelativeToolTip": "PaginaIst\\wwwroot\\js\\equipos.js",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswFMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-24T20:03:14.869Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -35,18 +52,24 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\Areas\\Usuario\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PaginaIst\\Areas\\Usuario\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\Areas\\Usuario\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PaginaIst\\Areas\\Usuario\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAIBBwB0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-22T16:33:19.184Z",
+              "DocumentIndex": 1,
+              "Title": "equiposrentados.js",
+              "DocumentMoniker": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\wwwroot\\js\\equiposrentados.js",
+              "RelativeDocumentMoniker": "PaginaIst\\wwwroot\\js\\equiposrentados.js",
+              "ToolTip": "C:\\Users\\Administrador.SRVIBM-SERVER\\Documents\\PaginaIst\\PaginaIntranet\\PaginaIst\\wwwroot\\js\\equiposrentados.js",
+              "RelativeToolTip": "PaginaIst\\wwwroot\\js\\equiposrentados.js",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-24T20:02:56.454Z",
               "EditorCaption": ""
             }
           ]

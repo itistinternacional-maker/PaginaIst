@@ -49,6 +49,7 @@ wwwroot\js\equipos.js
 wwwroot\js\equiposrentados.js
 wwwroot\js\mantenimiento.js
 wwwroot\js\paginasIst.js
+wwwroot\js\rentados.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

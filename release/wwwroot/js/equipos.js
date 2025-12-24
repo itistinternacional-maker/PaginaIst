@@ -73,10 +73,12 @@ function cargarDatatable() {
                             <a href="/EquiposIst/EquipoIT/Edit/${data}" class="btn btn-success text-white">
                                 <i class="far fa-edit"></i> Editar
                             </a>
-
                             &nbsp;
                             &nbsp;
-                   
+                          <a href="/EquiposIst/EquipoIT/DetallePdf/${data}"
+                               class="btn btn-outline-danger">
+                                <i class="far fa-file-pdf"></i> PDF
+                            </a>
                         </div>`;
                 },
                 width: "15%"

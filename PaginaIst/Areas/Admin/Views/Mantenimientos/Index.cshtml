@@ -10,10 +10,16 @@
         <div class="col-4 text-right">
             @if ( User.IsInRole ( "Admin" ) || User.IsInRole ( "IT" ) || User.IsInRole ( "Mantenimiento" ) )
                 {
-                <a asp-action="Create" class="btn btn-primary">
+                <a asp-action="Create" class="btn btn-primary w-100">
                     <i class="fa-solid fa-plus"></i> Crear Nuevo mantenimiento
                 </a>
                 }
+            <button type="button" class="btn btn-success w-100" onclick="exportarExcelDT(event)">
+                <i class="fa-solid fa-file-excel"></i> EXPORTAR A EXCEL
+            </button>
+
+            <!-- Aquí vamos a mover el botón de Excel -->
+            <div id="excelExportContainer" class="mt-2"></div>
         </div>
     </div>
 

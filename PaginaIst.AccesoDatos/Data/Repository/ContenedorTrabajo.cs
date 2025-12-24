@@ -18,6 +18,8 @@ namespace PaginaIst.AccesoDatos.Data.Repository
 
             EquiposRentados = new EquiposRentadoRepository ( _db );
 
+            Rentados = new RentadosRepository ( _db );
+
             //Recursos = new RecursoRepository ( _db );
 
             }
@@ -26,6 +28,7 @@ namespace PaginaIst.AccesoDatos.Data.Repository
         public IPaginasIstRepository PaginasIst { get; private set; }
         public IEquipoIstRepository EquiposIst { get; private set; }
         public IEquipoRentadosRepository EquiposRentados { get; }
+        public IRentadosRepository Rentados { get; }
 
 
         //public IRecursoRepository Recursos { get; private set; }
